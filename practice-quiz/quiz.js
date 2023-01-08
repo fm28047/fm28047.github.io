@@ -42,7 +42,7 @@ async function quiz(selectedQuestions, currentQuestion) {
             <h2 center>You did it!</h2>
             <p center><strong>Your score: ${score}/${maxQuestions}</strong></p>
             <p center><a href="#" onclick="window.location.reload(false)">Play again</a></p>
-            <p center><a href="https://github.com/fm28047/fm28047.github.io" target="_blank">View source</a></p>
+            <p center><a href="https://github.com/fm28047/fm28047.github.io/tree/main/practice-quiz" target="_blank">View source</a></p>
         `
         return;
     }
