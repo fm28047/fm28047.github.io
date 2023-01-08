@@ -1,3 +1,5 @@
+/* Micah Friedman - 8 Jan 2023 */
+
 function toggleLightMode(init=0) {
     var theme_choice;
     var element = document.body
