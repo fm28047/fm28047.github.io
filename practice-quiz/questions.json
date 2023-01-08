@@ -293,6 +293,47 @@
             "answerCount": 4,
             "unit": "5",
             "eq": "E"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What does the ${} of the heart do?",
+            "questionReverse": "Which part of the heart/blood vessel ${}?",
+            "options": {
+                "right atrium": "pumps oxygen-poor blood to the right ventricle",
+                "right ventricle": "pumps oxygen-poor blood to the pulmonary artery",
+                "left atrium": "pumps oxygen-rich blood to the left ventricle",
+                "left ventricle": "pumps oxygen-rich blood to the rest of the body",
+                "superior vena cava": "carries blood from the upper body to the heart",
+                "inferior vena cava": "carries blood from the lower body to the heart",
+                "pulmonary artery": "carries oxygen-poor blood to the lungs",
+                "pulmonary vein": "carries oxygen-rich blood to the heart",
+                "aorta": "carries oxygen-rich blood to the rest of the body"
+            },
+            "answerCount": 4,
+            "unit": "5",
+            "eq": "B"
+        },
+        {
+            "type": "imageMatching",
+            "reversable": false,
+            "question": "Which part is labeled ${} in the diagram?",
+            "imagePath": "media/heart.png",
+            "options": {
+                "1": "right atrium",
+                "2": "right ventricle",
+                "3": "left atrium",
+                "4": "left ventricle",
+                "5": "pulmonary artery",
+                "6": "aorta",
+                "7": "superior vena cava",
+                "8": "inferior vena cava",
+                "9": "pulmonary vein"
+            },
+            "answerCount": 4,
+            "unit": "5",
+            "eq": "B",
+            "source": "https://www.biologycorner.com/worksheets/heart_internal.html/"
         }
     ]
 }
