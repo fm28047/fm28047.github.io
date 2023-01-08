@@ -30,7 +30,7 @@
             "question": "What is an example of ${}?",
             "options": {
                 "mutualism": ["The hermit crab's shell provides a safe haven for anemones. In exchange, the anemone uses its sting to protect the animal from predators.", "Humans cannot digest certain foods. Intestinal bacteria feed on these foods and partially digest them."],
-                "commensalism": ["Remora fish painlessly attach themselves to larger marine animals, wait for them to feed, and then detach to take scraps.", "Pseuroscorpions attach themselves to exposed surfaces of host animals like the fur of mammals or beneath the wings of beetles and bees. Doing this, receive protection from predators with no nuisance to the sheltering animal."],
+                "commensalism": ["Remora fish painlessly attach themselves to larger marine animals, wait for them to feed, and then detach to take scraps.", "Pseuroscorpions attach themselves to exposed surfaces of host animals like the fur of mammals or beneath the wings of beetles and bees. Doing this, they receive protection from predators with no nuisance to the sheltering animal."],
                 "parasitism": ["Some insects deposit their eggs within the body of another insect species' larva; when the eggs hatch, the young kill and eat the larva, gaining nutrients from it.", "Aphids suck sap off of trees, weakening the plant."]
             },
             "answerCount": 4,

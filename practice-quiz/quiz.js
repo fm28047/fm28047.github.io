@@ -37,7 +37,7 @@ function loadQuestions(amount, list) {
 async function quiz(selectedQuestions, currentQuestion) {
     let quizContent = document.getElementById("quiz-content");
 
-    if (currentQuestion > 10) {
+    if (currentQuestion > maxQuestions) {
         quizContent.innerHTML = `
             <h2 center>You did it!</h2>
             <p center><strong>Your score: ${score}/${maxQuestions}</strong></p>
@@ -136,24 +136,30 @@ async function quiz(selectedQuestions, currentQuestion) {
         document.getElementById("answers").innerHTML = answersStr;
 
         let firstAttempt = true;
+        let alreadyClicked = false;
 
         for (i = 0; i < activeQuestion["answerCount"]; i++) {
             let element = document.getElementById(`answer-${i}`);
             if (i == correctLocation) {
                 element.addEventListener("click", function() {
-                    element.classList.add("correct");
-                    element.classList.remove("hover-color");
-                    if (firstAttempt) score++;
-                    setTimeout(function(){ 
-                        quiz(selectedQuestions, currentQuestion+1);
-                    }, 3000);
+                    if (!alreadyClicked) {
+                        alreadyClicked = true;
+                        element.classList.add("correct");
+                        element.classList.remove("hover-color");
+                        if (firstAttempt) score++;
+                        setTimeout(function(){ 
+                            quiz(selectedQuestions, currentQuestion+1);
+                        }, 3000);
+                    }
                 });
             }
             else {
                 element.addEventListener("click", function() {
-                    firstAttempt = false;
-                    element.classList.add("incorrect");
-                    element.classList.remove("hover-color");
+                    if (!alreadyClicked) {
+                        firstAttempt = false;
+                        element.classList.add("incorrect");
+                        element.classList.remove("hover-color");
+                    }
                 });
             }
         }
@@ -162,6 +168,6 @@ async function quiz(selectedQuestions, currentQuestion) {
 }
 
 // get 10 random questions
-let selectedQuestions = loadQuestions(10, questions);
+let selectedQuestions = loadQuestions(maxQuestions, questions);
 
 document.getElementById("quiz").addEventListener("click", function(){quiz(selectedQuestions, 1)});
