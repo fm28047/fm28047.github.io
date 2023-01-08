@@ -1,0 +1,205 @@
+@keyframes incorrect {
+    from {background-color: transparent}
+    to {background-color: #d3534a88}
+}
+
+@keyframes correct {
+    from {background-color: transparent}
+    to {background-color: #5bc42f88}
+}
+
+.correct {
+    animation-name: correct;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    background-color: #5bc42f88;
+}
+
+.incorrect {
+    animation-name: incorrect;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    background-color: #d3534a88;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-color: #08021e;
+    color: white;
+    border-color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.term {
+    background-color: #211b35;
+    font-family: monospace;
+}
+
+.light-mode .term {
+    background-color: #e0e0e0;
+}
+
+hr {border: 1px solid white;}
+
+.light-mode hr {border: 1px solid black;}
+
+#header {height: 32px;}
+
+.align-right {text-align: right;}
+
+a, a:visited {color: #a4a2ac;}
+
+.sub-p {font-size:12pt;}
+
+.light-mode a, .light-mode a:visited {
+    color: #514f60;
+}
+
+div.main-content {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+[center] {text-align: center;}
+
+#contents, .contents {
+    border: 1px solid;
+    width: 512px;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.box-padding {
+    margin: 25px;
+}
+
+.thin-center {
+    width: 1024px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.itctc {
+    max-width: 100%;
+}
+
+.thin-center img {
+    max-width: 100%;
+}
+
+.center-block {width: 100%; margin: 0 auto}
+
+.border {
+    border: solid white 2px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.light-mode .border {
+    border-color: black;
+}
+
+.small-padding {
+    padding: 5px;
+}
+
+#footer {
+    height: 36px;
+    overflow: auto;
+    vertical-align: middle;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 98%;
+    margin: 1%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.round {
+    border: solid;
+    border-radius: 15px;
+    border-spacing: 0px;
+}
+
+table.round tr, table.round td {
+    text-align: center;
+    border-left: solid;
+    border-top: solid;
+    padding: 2px;
+}
+table.round .first, table.round .first * {
+    border-top: none;
+}
+
+.hover-color:hover {
+    background-color: #211b35;
+}
+
+.light-mode .hover-color:hover {
+    background-color: #e6e6e6;
+}
+
+table.round tr:first-child, table.round td:first-child {
+  border-left: none;
+}
+.musiclog-table tr {
+    min-height: 45px;
+}
+audio {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.light-mode .button {
+    border: solid black 2px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.button {
+    border: solid white 2px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* Header styles */
+#header {
+    height: 48px;
+    overflow: auto;
+    vertical-align: middle;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 98%;
+    margin: 1%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.header-content, .footer-content {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.light-mode #header, .light-mode #footer {
+    border-color: black;
+}
+.light-dark {
+    font-size: 9pt;
+    text-align: right;
+}

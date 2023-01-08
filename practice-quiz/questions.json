@@ -1,0 +1,298 @@
+{
+    "questions": [
+        {
+            "type": "example",
+            "question": "What is an example of a/an ${} factor?",
+            "options": {
+                "biotic": ["Trees", "Animals", "Plants", "Fungi", "Bacteria", "Grass", "Fish", "Seaweed"],
+                "abiotic": ["Water", "Sun", "Soil", "Wind", "Temperature"]
+            },
+            "answerCount": 4,
+            "unit": "1",
+            "eq": "A"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of ${}?",
+            "questionReverse": "Which term fits the definition \"${}\"?",
+            "options": {
+                "mutualism": "An association between two organisms of different species in which each member benefits.", 
+                "commensalism": "A symbiotic relationship between two organisms of different species in which one derives some benefit while the other is unaffected.", 
+                "parasitism": "Interaction between two organisms, in which one organism benefits and the other is harmed."
+            },
+            "answerCount": 3,
+            "unit": "1",
+            "eq": "A"
+        },
+        {
+            "type": "example",
+            "question": "What is an example of ${}?",
+            "options": {
+                "mutualism": ["The hermit crab's shell provides a safe haven for anemones. In exchange, the anemone uses its sting to protect the animal from predators.", "Humans cannot digest certain foods. Intestinal bacteria feed on these foods and partially digest them."],
+                "commensalism": ["Remora fish painlessly attach themselves to larger marine animals, wait for them to feed, and then detach to take scraps.", "Pseuroscorpions attach themselves to exposed surfaces of host animals like the fur of mammals or beneath the wings of beetles and bees. Doing this, receive protection from predators with no nuisance to the sheltering animal"],
+                "parasitism": ["Some insects deposit their eggs within the body of another insect species' larva; when the eggs hatch, the young kill and eat the larva, gaining nutrients from it.", "Aphids suck sap off of trees, weakening the plant."]
+            },
+            "answerCount": 4,
+            "unit": "1",
+            "eq": "A",
+            "source": ["https://www.worldatlas.com/animals/10-examples-of-commensalism-in-nature.html", "https://www.lifepersona.com/20-examples-of-mutualism", "https://biologydictionary.net/parasitism/"]
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of a ${}?",
+            "questionReverse": "Which term fits the definition \"${}\"?",
+            "options": {
+                "producer": "A living organism which creates its own energy from sunlight",
+                "consumer": "A living organism which must consume other living organisms for energy",
+                "decomposer": "A living organism which recycles nutrients of other living organisms back into the ecosystem"
+            },
+            "answerCount": 3,
+            "unit": "1",
+            "eq": "B"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of ${}?",
+            "questionReverse": "Which term fits the definition \"${}\"?",
+            "options": {
+                "independent variable": "The variable being changed to affect the outcome",
+                "dependent variable": "The variable that is being studied or measured",
+                "control group": "The group that stays in normal conditions",
+                "experimental group": "The group that receives treatment or change",
+                "scientific question": "A question which includes the I.V. and D.V.",
+                "quantitative data": "Data that can be counted or expressed easily using numbers.",
+                "qualitative data": "Data that cannot be counted or expressed easily using numbers."
+            },
+            "answerCount": 5,
+            "unit": "1",
+            "eq": "C"
+        },
+        {
+            "type": "example",
+            "question": "Which organelle is present in ${} cells?",
+            "options": {
+                "only plant": ["Cell Wall", "Large Vacuole", "Chloroplasts"],
+                "both plant and animal": ["Nucleus", "Endoplasmic Reticulum", "Golgi Apparatus", "Cell Membrane", "Mitochondria"]
+            },
+            "answerCount": 3,
+            "unit": "2",
+            "eq": "A"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the purpose of the ${}?",
+            "questionReverse": "Which organelle ${}?",
+            "options": {
+                "cell membrane": "controls what enters and leaves the cell",
+                "lysosomes": "breaks down and recycles cell waste",
+                "golgi apparatus": "sorts, packages, and sends proteins",
+                "nucleus": "is the control center of the cell",
+                "rough endoplasmic reticulum": "folds proteins",
+                "smooth endoplasmic reticulum": "makes lipids",
+                "mitochondria": "creats energy for the cell",
+                "vacuole": "stores water",
+                "cytoplasm": "holds all of the organelles in place",
+                "chloroplast": "creates energy from light (photosynthesis)",
+                "ribosomes": "builds proteins from DNA"
+            },
+            "answerCount": 5,
+            "unit": "2",
+            "eq": "C"
+        },
+        {
+            "type": "imageMatching",
+            "reversable": false,
+            "question": "Which organelle is labeled ${} in the cell diagram?",
+            "imagePath": "media/cell_diagram.png",
+            "options": {
+                "1": "nucleolus",
+                "2": "nucleus",
+                "3": "rough E.R.",
+                "4": "smooth E.R.",
+                "5": "golgi apparatus",
+                "6": "mitochondria",
+                "7": "ribosomes",
+                "9": "lysosomes",
+                "12": "cytoplasm",
+                "14": "cell membrane"
+            },
+            "answerCount": 4,
+            "unit": "2",
+            "eq": "C",
+            "source": "https://www.visionlearning.com/images/figure-images/64-e-2x.jpg"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the purpose of the ${} of a microscope?",
+            "questionReverse": "Which microscope part ${}?",
+            "options": {
+                "eyepiece": "contains the ocular lens and has a magnification of 10x",
+                "revolving nose": "rotates and holds the objective lens",
+                "objective lens": "has three different magnifications",
+                "arm": "is used to hold the microscope when carried",
+                "stage clips": "holds the slide in place",
+                "stage": "supports the slide",
+                "diaphragm": "adjusts the amount of light",
+                "light source": "provides light through the diaphragm and the specimen",
+                "coarse adjustment knob": "moves the stage vertically",
+                "fine adjustment knob": "moves the stage slightly",
+                "base": "supports the microscope"
+            },
+            "answerCount": 5,
+            "unit": "2",
+            "eq": "D"
+        },
+        {
+            "type": "imageMatching",
+            "reversable": false,
+            "question": "Which part is labeled ${} in the microscope?",
+            "imagePath": "media/microscope.png",
+            "options": {
+                "1": "eyepiece/ocular lens",
+                "2": "revolving nose",
+                "3": "objective lens",
+                "4": "stage clips",
+                "5": "diaphragm",
+                "6": "light source",
+                "7": "arm",
+                "8": "stage",
+                "9": "coarse adjustment knob",
+                "10": "fine adjustment knob",
+                "11": "base"
+            },
+            "answerCount": 4,
+            "unit": "2",
+            "eq": "D",
+            "source": "https://www.biologycorner.com/microscope_boxed.gif"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of ${}?",
+            "questionReverse": "Which term fits the definition \"${}\"?",
+            "options": {
+                "diffusion": "movement of molecules from high to low concentration (e.g. oxygen, carbon dioxide)", 
+                "osmosis": "movement of water molecules from high to low concentration", 
+                "facilitated diffusion": "movement of large molecules from high to low concentration (e.g. glucose)",
+                "equilibrium": "the state when concentration is equal in all areas",
+                "active transport": "movement of molecules from low to high concentration",
+                "concentration gradient": "different concentrations in different areas"
+            },
+            "answerCount": 4,
+            "unit": "3",
+            "eq": "A"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of ${}?",
+            "questionReverse": "Which macromolecule fits the definition \"${}\"?",
+            "options": {
+                "proteins": "a chain of amino acids",
+                "carbohydrates": "a chain of sugars used to provide energy to cells",
+                "fats/lipids": "a long molecule used in the cell membrane, brain, and for long-term energy storage"
+            },
+            "answerCount": 3,
+            "unit": "4",
+            "eq": "A"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the purpose of the ${} in the digestive system?",
+            "questionReverse": "Which organ in the digestive system ${}?",
+            "options": {
+                "mouth": "breaks food down by crushing it and with saliva",
+                "esophagus": "receives food from the mouth and delivers it to the stomach",
+                "stomach": "holds food while it is being mixed with enzymes and broken down",
+                "small intestine": "breaks down food more and absorbs it into the bloodstream",
+                "large intestine": "connects the small intestine to the rectum and is the pathway of stool",
+                "rectum": "holds stool until it is ready to be disposed",
+                "anus": "detects and releases rectal contents",
+                "pancreas": "makes insulin and digestive enzymes",
+                "liver": "detoxifies harmful chemicals",
+                "gall bladder": "stores and releases bile"
+            },
+            "answerCount": 5,
+            "unit": "4",
+            "eq": "C"
+        },
+        {
+            "type": "imageMatching",
+            "reversable": false,
+            "question": "Which part is labeled ${} in the diagram?",
+            "imagePath": "media/digestive_system.png",
+            "options": {
+                "1": "mouth",
+                "2": "esophagus",
+                "3": "stomach",
+                "4": "small intestine",
+                "5": "large intestine",
+                "6": "anus",
+                "7": "rectum",
+                "8": "pancreas",
+                "10": "liver"
+            },
+            "answerCount": 4,
+            "unit": "4",
+            "eq": "B",
+            "source": "https://www.pinterest.com/pin/839006605550144856/"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the purpose of the ${} in the respiratory system?",
+            "questionReverse": "Which organ in the respiratory system ${}?",
+            "options": {
+                "nasal cavity": "is the place where air enters the body",
+                "epiglottis": "guards the entrance to the trachea",
+                "trachea": "is the passageway to the lungs",
+                "larynx": "contains vocal cords",
+                "bronchus": "subdivides into bronchioles",
+                "bronchioles": "is a small duct that ends in alveoli",
+                "alveoli": "is an air sac and the final destination of air",
+                "diaphragm": "is a wall of muscle",
+                "lung": "a large, sac-like respiratory organ which occupies the chest cavity"
+            },
+            "answerCount": 5,
+            "unit": "5",
+            "eq": "A"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "What is the definition of ${}?",
+            "questionReverse": "Which item fits the definition \"${}\"?",
+            "options": {
+                "arteries": "A blood vessel which carries blood away from the heart",
+                "veins": "A blood vessel which carries blood to the heart",
+                "capillaries": "A very small blood vessel which connects arteries and veins"
+            },
+            "answerCount": 3,
+            "unit": "5",
+            "eq": "C"
+        },
+        {
+            "type": "matching",
+            "reversable": true,
+            "question": "How is ${} used in cellular resparation?",
+            "questionReverse": "Which item fits the definition \"${}\"?",
+            "options": {
+                "glucose": "Used in glycosis (6) to create 2 pyruvate and 2 ATP",
+                "pyruvate": "Used in Kreb's cycle (2) to create 6 carbon dioxide and 2 ATP",
+                "carbon dioxide": "Created as a byproduct of Kreb's cycle and removed from the cell via diffusion",
+                "oxygen": "Used in the Electron Transport Chain (6) to create 6 water molecules and 32 ATP",
+                "cytoplasm": "The location where glycosis takes place",
+                "mitochondria": "The location where Kreb's Cycle and the ETC take place"
+            },
+            "answerCount": 4,
+            "unit": "5",
+            "eq": "E"
+        }
+    ]
+}
