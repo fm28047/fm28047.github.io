@@ -1,3 +1,5 @@
+/* Micah Friedman - 8 Jan 2023 */
+
 const maxQuestions = 10;
 
 let score = 0;
