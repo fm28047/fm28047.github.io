@@ -283,11 +283,11 @@
             "question": "How is ${} used in cellular resparation?",
             "questionReverse": "Which item fits the definition \"${}\"?",
             "options": {
-                "glucose": "Used in glycosis (6) to create 2 pyruvate and 2 ATP",
+                "glucose": "Used in glycolysis (6) to create 2 pyruvate and 2 ATP",
                 "pyruvate": "Used in Kreb's cycle (2) to create 6 carbon dioxide and 2 ATP",
-                "carbon dioxide": "Created as a byproduct of Kreb's cycle and removed from the cell via diffusion",
+                "carbon dioxide": "Created as a byproduct of Kreb's Cycle and removed from the cell via diffusion",
                 "oxygen": "Used in the Electron Transport Chain (6) to create 6 water molecules and 32 ATP",
-                "cytoplasm": "The location where glycosis takes place",
+                "cytoplasm": "The location where glycolysis takes place",
                 "mitochondria": "The location where Kreb's Cycle and the ETC take place"
             },
             "answerCount": 4,
