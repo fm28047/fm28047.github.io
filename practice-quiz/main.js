@@ -29,7 +29,7 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <table class="header-content"><tr>
-            <td class="home-link">&nbsp;</td>
+            <td class="home-link"><b>Micah Friedman</b></td>
             <td class="light-dark"><a href="#" onclick="parent.toggleLightMode()">Light/Dark</a></td>
         </tr></table>
       `;
